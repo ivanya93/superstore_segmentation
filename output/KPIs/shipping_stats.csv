@@ -1,0 +1,5 @@
+Ship Mode,Order_Count,Avg_Delivery_Days,Avg_Sales,Avg_Profit_Margin
+Same Day,264,0.04,236.4,0.14
+First Class,787,2.18,228.5,0.12
+Second Class,964,3.24,236.09,0.15
+Standard Class,2994,5.01,227.58,0.11

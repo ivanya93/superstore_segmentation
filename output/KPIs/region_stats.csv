@@ -1,0 +1,5 @@
+Region,Total_Sales,Total_Profit,Avg_Profit_Margin,Order_Count,Avg_Discount,Profit_per_Order
+West,725457.82,108418.45,0.22,1611,0.11,67.3
+East,678781.24,91522.78,0.17,1401,0.15,65.33
+South,391721.9,46749.43,0.16,822,0.15,56.87
+Central,501239.89,39706.36,-0.1,1175,0.24,33.79
