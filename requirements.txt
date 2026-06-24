@@ -12,6 +12,10 @@ pymysql
 psycopg2-binary
 python-dotenv
 kagglehub[pandas-datasets]
+google-cloud-bigquery
+pandas-gbq
+db-dtypes
+cryptography==41.0.7  # 42+ drops LibreSSL support (macOS system SSL)
 
 # Data Visualization
 matplotlib
