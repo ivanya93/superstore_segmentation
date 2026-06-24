@@ -1,0 +1,8 @@
+Test,Result,Significant,Business Implication
+CI — Mean Sales,"CI: [$217.64, $242.08]",Yes,Mean transaction value is stable and well-estimated; budget forecasting is reliable
+Mann-Whitney — West vs Central Profit,"p<0.001, r=0.234 (small)",Yes,"West significantly more profitable than Central, but effect is small — not the primary driver"
+Kruskal-Wallis — Profit by Region,"H=227.90, p<0.001 — 5/6 pairs significant",Yes,"Regional profit differences are real; West leads, Central lags — resource allocation should reflect this"
+Kruskal-Wallis — Sales by Segment,"H=0.68, p=0.710",No,Sales do not differ meaningfully across segments — all segments spend similarly per transaction
+Chi-Square — Segment × Category,"χ²=1.46, p=0.834, V=0.009",No,Segments show no category preference — cross-sell strategy cannot be driven by segment alone
+Chi-Square — Discount × Category,"p<0.001, V=0.230 (moderate)",Yes,Discounting is unevenly applied across categories — Furniture and Binders receive the heaviest discounts
+Spearman — Discount vs Profit Margin,"ρ=−0.645, p<0.001 (strong)",Yes,Discounting is the strongest driver of margin erosion — reducing high discounts is the clearest lever for profitability
