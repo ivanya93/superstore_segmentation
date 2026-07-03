@@ -30,6 +30,10 @@ scipy
 statsmodels
 scikit-learn
 ydata-profiling
+statsmodels.api
+pingouin
+iscikit_posthocs
+itertools
 
 # Machine Learning
 xgboost

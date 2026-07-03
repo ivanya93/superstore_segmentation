@@ -1,0 +1,25 @@
+Category,Test,Segmentation,Statistic,p-value,Significant?
+Kruskal,Profit by Segment,Registration,4.373,0.1123,❌ No
+Kruskal,Sales by Segment,Registration,0.684,0.7103,❌ No
+Kruskal,Profit Margin%,Registration,9.597,0.0082,✅ Yes
+Kruskal,Discount by Segmen,Registration,6.925,0.0313,✅ Yes
+Kruskal,Profit by RFM,RFM,158.801,0.0,✅ Yes
+Kruskal,Sales by RFM,RFM,26.404,0.0,✅ Yes
+Kruskal,Profit Margin% by RFM,RFM,62.71,0.0,✅ Yes
+Kruskal,Discount by RFM,RFM,95.208,0.0,✅ Yes
+ANOVA,Profit by Segment,Registration,0.898,0.4074,❌ No
+ANOVA,Sales by Segment,Registration,0.595,0.5515,❌ No
+ANOVA,Profit Margin%,Registration,2.902,0.055,❌ No
+ANOVA,Discount by Segmen,Registration,2.097,0.1229,❌ No
+ANOVA,Profit by RFM,RFM,20.902,0.0,✅ Yes
+ANOVA,Sales by RFM,RFM,4.563,0.0011,✅ Yes
+ANOVA,Profit Margin% by RFM,RFM,16.319,0.0,✅ Yes
+ANOVA,Discount by RFM,RFM,22.932,0.0,✅ Yes
+Chi-Sq,Segment × Discount,Registration,8.317,0.2158,❌ No
+Chi-Sq,Segment × Category,Registration,1.461,0.8335,❌ No
+Chi-Sq,Segment × Ship Mode,Registration,28.098,0.0001,✅ Yes
+Chi-Sq,Segment × Quarter,Registration,14.713,0.0226,✅ Yes
+Chi-Sq,RFM Segment × Discount Band,RFM,98.41,0.0,✅ Yes
+Chi-Sq,RFM Segment × Category,RFM,25.2,0.0014,✅ Yes
+Chi-Sq,RFM Segment × Ship Mode,RFM,39.52,0.0001,✅ Yes
+Chi-Sq,RFM Segment × Quarter,RFM,80.98,0.0,✅ Yes
